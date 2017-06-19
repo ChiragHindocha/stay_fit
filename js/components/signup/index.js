@@ -13,7 +13,6 @@ const backIcon = require("../../../img/back.png");
 const personIcon = require("../../../img/signup_person.png");
 const lockIcon = require("../../../img/signup_lock.png");
 const emailIcon = require("../../../img/signup_email.png");
-const birthdayIcon = require("../../../img/signup_birthday.png");
 
 class SignUp extends Component {
 
