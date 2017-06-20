@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/home/chirag/MyProj/zfp/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
-        "source": "/home/chirag/MyProj/zfp/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/home/chirag/MyProj/stay_fit/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
         "source": "/home/chirag/MyProj/stay_fit/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     }

@@ -2,7 +2,7 @@
 manifest
 ADDED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml:1:1-32:12
 	package
-		ADDED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml:2:5-40
+		ADDED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml:2:5-26
 		INJECTED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -17,7 +17,7 @@ ADDED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml
 		ADDED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml:6:5-67
-MERGED from [NativebaseKitchenSink:react-native-code-push:unspecified] /home/chirag/MyProj/stay_fit/android/app/build/intermediates/exploded-aar/NativebaseKitchenSink/react-native-code-push/unspecified/AndroidManifest.xml:11:5-67
+MERGED from [StayFit:react-native-code-push:unspecified] /home/chirag/MyProj/stay_fit/android/app/build/intermediates/exploded-aar/StayFit/react-native-code-push/unspecified/AndroidManifest.xml:11:5-67
 	android:name
 		ADDED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
@@ -27,7 +27,7 @@ MERGED from [com.facebook.react:react-native:0.42.3] /home/chirag/MyProj/stay_fi
 		ADDED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml:7:22-75
 uses-sdk
 ADDED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml:9:5-11:41
-MERGED from [NativebaseKitchenSink:react-native-code-push:unspecified] /home/chirag/MyProj/stay_fit/android/app/build/intermediates/exploded-aar/NativebaseKitchenSink/react-native-code-push/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [StayFit:react-native-code-push:unspecified] /home/chirag/MyProj/stay_fit/android/app/build/intermediates/exploded-aar/StayFit/react-native-code-push/unspecified/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.42.3] /home/chirag/MyProj/stay_fit/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:23.0.1] /home/chirag/MyProj/stay_fit/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:recyclerview-v7:23.4.0] /home/chirag/MyProj/stay_fit/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/AndroidManifest.xml:20:5-43
@@ -50,7 +50,7 @@ MERGED from [com.facebook.soloader:soloader:0.1.0] /home/chirag/MyProj/stay_fit/
 		INJECTED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml
 application
 ADDED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml:13:5-30:19
-MERGED from [NativebaseKitchenSink:react-native-code-push:unspecified] /home/chirag/MyProj/stay_fit/android/app/build/intermediates/exploded-aar/NativebaseKitchenSink/react-native-code-push/unspecified/AndroidManifest.xml:13:5-15:19
+MERGED from [StayFit:react-native-code-push:unspecified] /home/chirag/MyProj/stay_fit/android/app/build/intermediates/exploded-aar/StayFit/react-native-code-push/unspecified/AndroidManifest.xml:13:5-15:19
 MERGED from [com.facebook.react:react-native:0.42.3] /home/chirag/MyProj/stay_fit/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/AndroidManifest.xml:13:5-20
 MERGED from [com.android.support:appcompat-v7:23.0.1] /home/chirag/MyProj/stay_fit/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.4.0] /home/chirag/MyProj/stay_fit/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
@@ -66,7 +66,7 @@ MERGED from [org.webkit:android-jsc:r174650] /home/chirag/MyProj/stay_fit/androi
 		ADDED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml:18:7-38
 	android:name
 		ADDED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml:14:7-38
-activity#com.nativebasekitchensink.MainActivity
+activity#com.stayfit.MainActivity
 ADDED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml:19:7-28:18
 	android:label
 		ADDED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml:21:9-41
@@ -88,7 +88,7 @@ ADDED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml
 		ADDED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml:26:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
 ADDED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml:29:7-84
-MERGED from [NativebaseKitchenSink:react-native-code-push:unspecified] /home/chirag/MyProj/stay_fit/android/app/build/intermediates/exploded-aar/NativebaseKitchenSink/react-native-code-push/unspecified/AndroidManifest.xml:14:9-86
+MERGED from [StayFit:react-native-code-push:unspecified] /home/chirag/MyProj/stay_fit/android/app/build/intermediates/exploded-aar/StayFit/react-native-code-push/unspecified/AndroidManifest.xml:14:9-86
 	android:name
 		ADDED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml:29:17-81
 android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE

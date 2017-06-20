@@ -29,7 +29,7 @@ class Home extends Component { // eslint-disable-line
         <View style={styles.container}>
           <Image source={fitness_bg} style={styles.background} resizeMode="cover">
             <View style={styles.markWrap}>
-              <Image source={mark} style={styles.mark} resizeMode="contain" />
+              {/*<Image source={mark} style={styles.mark} resizeMode="contain" />*/}
             </View>
             <View style={styles.wrapper}>
               <View style={styles.inputWrap}>
