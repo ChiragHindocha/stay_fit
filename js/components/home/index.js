@@ -7,7 +7,6 @@ import { openDrawer, closeDrawer } from '../../actions/drawer';
 import styles from './styles';
 import { Actions } from 'react-native-router-flux';
 
-const background = require("../../../img/login1_bg.png");
 const fitness_bg = require('../../../img/fitness_bg.jpg');
 const mark = require("../../../img/login1_mark.png");
 const lockIcon = require("../../../img/login1_lock.png");

@@ -9,14 +9,14 @@ import styles from './styles';
 import Timeline from 'react-native-timeline-listview';
 
 const data = [
-    { time: '08:00', title: 'Early Morning', description: '1-2 glass of water' },
-    { time: '08:30', title: 'Breakfast', description: '1 glass of Milk with protein-X. Along with the glass of milk, you can have any one from the following: Khakhra, Poha, Upma, Bhakhri.' },
-    { time: '10:30', title: 'Mid Morning Snack', description: 'Any one from the following: Dryfruits (handfull), Fruit (any), Fruit Juice (1 glass)' },
-    { time: '13:00', title: 'Lunch', description: 'Sprouts (Mung + Chana), 3 Roti, Sabji, Daal & Rice, Curd/Buttermilk.' },
-    { time: '15:30', title: 'Mid noon Snack', description: 'Along with Tea/Coffee, you can have any one from the following: Fruit (any), Roasted Chana.' },
-    { time: '17:00', title: 'Snacks', description: '1 glass of Milk.' },
-    { time: '19:30', title: 'Pre-Workout', description: 'Any one from the following: 4 Almonds, 1 Banana, 5 Dates.' },
-    { time: '22:00', title: 'Post-Workout', description: '1 glass of Milk, Sprouts.' }
+    { time: '08:00', title: 'Early Morning', description: '1-2 glass of water', icon: require('../../../img/water.png') },
+    { time: '08:30', title: 'Breakfast', description: '1 glass of Milk with protein-X. Along with the glass of milk, you can have any one from the following: Khakhra, Poha, Upma, Bhakhri.', icon: require('../../../img/breakfast.png') },
+    { time: '10:30', title: 'Mid Morning Snack', description: 'Any one from the following: Dryfruits (handfull), Fruit (any), Fruit Juice (1 glass)', icon: require('../../../img/fruit.png') },
+    { time: '13:00', title: 'Lunch', description: 'Sprouts (Mung + Chana), 3 Roti, Sabji, Daal & Rice, Curd/Buttermilk.', icon: require('../../../img/lunch.png') },
+    { time: '15:30', title: 'Mid noon Snack', description: 'Along with Tea/Coffee, you can have any one from the following: Fruit (any), Roasted Chana.', icon: require('../../../img/tea.png') },
+    { time: '17:00', title: 'Snacks', description: '1 glass of Milk.', icon: require('../../../img/milk.png') },
+    { time: '19:30', title: 'Pre-Workout', description: 'Any one from the following: 4 Almonds, 1 Banana, 5 Dates.', icon: require('../../../img/dumbbell.png') },
+    { time: '22:00', title: 'Post-Workout', description: '1 glass of Milk, Sprouts.', icon: require('../../../img/icon_time.png') }
 ];
 
 class DietPlan extends Component {
@@ -46,11 +46,14 @@ class DietPlan extends Component {
                     <Timeline
                         data={data}
                         circleSize={20}
-                        circleColor='#252126'
+                        //circleColor='#252126'
+                        //circleSize={30}
+                        circleColor='rgba(0,0,0,0)'
                         lineColor='#252126'
                         timeContainerStyle={{ minWidth: 52, marginTop: -5 }}
                         timeStyle={{ textAlign: 'center', backgroundColor: '#FF3366', color: 'white', padding: 5, borderRadius: 13 }}
-                        descriptionStyle={{ color: 'gray' }}
+                        sdescriptionStyle={{ color: 'gray' }}
+                        innerCircle={'icon'}
                         options={{
                             style: { paddingTop: 5 }
                         }}

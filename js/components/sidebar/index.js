@@ -14,7 +14,6 @@ const drawerCover = require('../../../img/drawer-cover.png');
 
 const drawerImage = require('../../../img/logo-kitchen-sink.png');
 
-const background = require("../../../img/login1_bg.png");
 const materialPink = require("../../../img/material_pink.jpg");
 const mark = require("../../../img/login1_mark.png");
 const cover = require('../../../img/web-cover1.jpg');
