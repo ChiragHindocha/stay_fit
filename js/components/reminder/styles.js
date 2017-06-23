@@ -7,4 +7,7 @@ export default {
   container: {
     backgroundColor: '#fff',
   },
+  title: {
+    fontWeight: 'bold',
+  },
 };

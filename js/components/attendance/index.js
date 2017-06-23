@@ -91,14 +91,14 @@ class Attendance extends Component {
     const limit = 1;
     return (
       <Container style={styles.container}>
-        <Header>
+        <Header span={true}>
           <Left>
             <Button transparent onPress={this.props.openDrawer}>
               <Icon name="ios-menu" />
             </Button>
           </Left>
           <Body>
-            <Title>Attendance</Title>
+            <Title style={{ marginBottom: 65 }}>Attendance</Title>
           </Body>
           <Right />
 

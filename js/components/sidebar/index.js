@@ -29,12 +29,12 @@ const datas = [
     route: 'attendance',
     icon: 'calendar',
     //bg: '#C5F442',
-  }/*, {
-    name: 'Reminder',
+  }, {
+    name: 'Reminders',
     route: 'reminder',
-    icon: 'stopwatch',
+    icon: 'alarm',
     //bg: '#C5F442',
-  }*/, {
+  }, {
     name: 'Diet Plan',
     route: 'dietplan',
     icon: 'pie',
@@ -44,12 +44,12 @@ const datas = [
     route: 'fuelstation',
     icon: 'nutrition',
     //bg: '#C5F442',
-  }, {
+  }/*, {
     name: 'Stay Fit',
     route: 'stayfit',
     icon: 'pulse',
     //bg: '#C5F442',
-  }, {
+  }*/, {
     name: 'Profile',
     route: 'profile',
     icon: 'person',

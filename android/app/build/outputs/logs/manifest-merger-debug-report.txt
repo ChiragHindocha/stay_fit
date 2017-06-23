@@ -27,6 +27,7 @@ MERGED from [com.facebook.react:react-native:0.42.3] /home/chirag/MyProj/stay_fi
 		ADDED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml:7:22-75
 uses-sdk
 ADDED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml:9:5-11:41
+MERGED from [StayFit:react-native-calendar-events:unspecified] /home/chirag/MyProj/stay_fit/android/app/build/intermediates/exploded-aar/StayFit/react-native-calendar-events/unspecified/AndroidManifest.xml:7:5-9:41
 MERGED from [StayFit:react-native-code-push:unspecified] /home/chirag/MyProj/stay_fit/android/app/build/intermediates/exploded-aar/StayFit/react-native-code-push/unspecified/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.42.3] /home/chirag/MyProj/stay_fit/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:23.0.1] /home/chirag/MyProj/stay_fit/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
@@ -91,6 +92,14 @@ ADDED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml
 MERGED from [StayFit:react-native-code-push:unspecified] /home/chirag/MyProj/stay_fit/android/app/build/intermediates/exploded-aar/StayFit/react-native-code-push/unspecified/AndroidManifest.xml:14:9-86
 	android:name
 		ADDED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml:29:17-81
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from [StayFit:react-native-calendar-events:unspecified] /home/chirag/MyProj/stay_fit/android/app/build/intermediates/exploded-aar/StayFit/react-native-calendar-events/unspecified/AndroidManifest.xml:11:5-73
+	android:name
+		ADDED from [StayFit:react-native-calendar-events:unspecified] /home/chirag/MyProj/stay_fit/android/app/build/intermediates/exploded-aar/StayFit/react-native-calendar-events/unspecified/AndroidManifest.xml:11:22-70
+uses-permission#android.permission.READ_CALENDAR
+ADDED from [StayFit:react-native-calendar-events:unspecified] /home/chirag/MyProj/stay_fit/android/app/build/intermediates/exploded-aar/StayFit/react-native-calendar-events/unspecified/AndroidManifest.xml:12:5-72
+	android:name
+		ADDED from [StayFit:react-native-calendar-events:unspecified] /home/chirag/MyProj/stay_fit/android/app/build/intermediates/exploded-aar/StayFit/react-native-calendar-events/unspecified/AndroidManifest.xml:12:22-69
 android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 IMPLIED from /home/chirag/MyProj/stay_fit/android/app/src/main/AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 android:uses-permission#android.permission.READ_PHONE_STATE

@@ -105,6 +105,9 @@ import StayFit from './components/stayfit/';
 import Login from './components/login/';
 import Reminder from './components/reminder/';
 import SignUp from './components/signup/';
+import FoodReminder from './components/foodreminder/';
+import WorkoutReminder from './components/workoutreminder/';
+import WeightReminder from './components/weightreminder/';
 
 const {
   popRoute,
@@ -272,6 +275,9 @@ class AppNavigator extends Component {
               <Scene key="login" component={Login} />
               <Scene key="reminder" component={Reminder} />
               <Scene key="signup" component={SignUp} />
+              <Scene key="foodreminder" component={FoodReminder} />
+              <Scene key="workoutreminder" component={WorkoutReminder} />
+              <Scene key="weightreminder" component={WeightReminder} />
             </Scene>
           </RouterWithRedux>
         </Drawer>

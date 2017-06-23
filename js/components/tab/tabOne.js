@@ -54,6 +54,26 @@ const datas = [
     note: 'Wish I had a Time machine . .',
     time: '15/4',
   },
+  {
+    text: 'Jumping Jacks',
+    note: 'Wish I had a Time machine . .',
+    time: '20/3',
+  },
+  /*{
+    text: 'Scissor Cross Crunch',
+    note: 'Wish I had a Time machine . .',
+    time: '20/3',
+  }*//*,
+  {
+    text: 'Donkey Kick',
+    note: 'Wish I had a Time machine . .',
+    time: '20/4',
+  },
+  {
+    text: 'Side Lunge',
+    note: 'Wish I had a Time machine . .',
+    time: '20/4',
+  }*/
 ];
 
 export default class TabOne extends Component { // eslint-disable-line
@@ -87,7 +107,7 @@ export default class TabOne extends Component { // eslint-disable-line
                   {/*<Thumbnail source={data.img} />*/}
                 </Left>
                 <Body>
-                  <Text>{data.text}</Text>
+                  <Text style={styles.mb}>{data.text}</Text>
                   <Text numberOfLines={1} note>{data.note}</Text>
                 </Body>
                 <Right>
@@ -96,6 +116,24 @@ export default class TabOne extends Component { // eslint-disable-line
               </ListItem>
             }
           />
+          <Fab
+            active={this.state.active}
+            direction="up"
+            containerStyle={{}}
+            style={{ backgroundColor: '#FF3366' }}
+            position="bottomRight"
+            onPress={() => this.setState({ active: !this.state.active })}>
+            <Icon name="share" />
+            <Button style={{ backgroundColor: '#34A34F' }}>
+              <Icon name="logo-whatsapp" />
+            </Button>
+            <Button style={{ backgroundColor: '#3B5998' }}>
+              <Icon name="logo-facebook" />
+            </Button>
+            <Button disabled style={{ backgroundColor: '#DD5144' }}>
+              <Icon name="mail" />
+            </Button>
+          </Fab>
         </Content>
       </Container>
     );
