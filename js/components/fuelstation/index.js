@@ -48,7 +48,7 @@ class FuelStation extends Component {
   render() {
     return (
       <Container style={styles.container}>
-        <Header>
+        {/*<Header>
           <Left>
             <Button transparent onPress={this.props.openDrawer}>
               <Icon name="ios-menu" />
@@ -59,7 +59,7 @@ class FuelStation extends Component {
           </Body>
           <Right />
 
-        </Header>
+        </Header>*/}
 
 
         <Content padder>

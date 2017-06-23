@@ -30,7 +30,7 @@ class BasicTab extends Component {  // eslint-disable-line
   render() {
     return (
       <Container>
-        <Header hasTabs={true}>
+        {/*<Header hasTabs={true}>
           <Left>
             <Button transparent onPress={this.props.openDrawer}>
               <Icon name="ios-menu" />
@@ -41,7 +41,7 @@ class BasicTab extends Component {  // eslint-disable-line
           </Body>
           <Right />
 
-        </Header>
+        </Header>*/}
 
         <Tabs>
           <Tab heading="Mon">

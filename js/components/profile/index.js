@@ -5,7 +5,9 @@ import { connect } from 'react-redux';
 import { View, Image } from 'react-native';
 import { Container, Header, Title, List, ListItem, Content, Text, H3, Button, Icon, Thumbnail, Footer, FooterTab, Left, Right, Body } from 'native-base';
 
-import { openDrawer } from '../../actions/drawer';
+//simport { openDrawer } from '../../actions/drawer';
+import { closeModal } from '../../actions/modal';
+import statusBarColor from '../../themes/variables';
 import styles from './styles';
 
 const imgOne = require('../../../img/swiper-1.png');
@@ -14,19 +16,31 @@ const imgTwo = require('../../../img/swiper-2.png');
 const logo = require('../../../img/splashscreen.png');
 const cover = require('../../../img/web-cover1.jpg');
 
-class Anatomy extends Component {
+class Profile extends Component {
+  constructor(props) {
+    super(props);
+  }
 
   static propTypes = {
-    openDrawer: React.PropTypes.func,
+    modalState: React.PropTypes.bool,
+    closeModal: React.PropTypes.func,
   }
+
+  /*closeModal() {
+    console.log(this.props.modalState);
+  };*/
 
   render() {
     return (
       <Container style={styles.container}>
+        <StatusBar
+          //hidden={(this.props.drawerState === 'opened' && Platform.OS === 'ios') ? true : false}
+          backgroundColor='#F5003D'
+        />
         <Header>
           <Left>
-            <Button transparent onPress={this.props.openDrawer}>
-              <Icon name="ios-menu" />
+            <Button transparent onPress={this.props.closeModal}>
+              <Icon name="close" />
             </Button>
           </Left>
           <Body>
@@ -96,13 +110,15 @@ class Anatomy extends Component {
 
 function bindAction(dispatch) {
   return {
-    openDrawer: () => dispatch(openDrawer()),
+    openModal: () => dispatch(openModal()),
+    closeModal: () => dispatch(closeModal()),
   };
 }
 
 const mapStateToProps = state => ({
   navigation: state.cardNavigation,
   themeState: state.drawer.themeState,
+  modalState: state.modal.modalState,
 });
 
-export default connect(mapStateToProps, bindAction)(Anatomy);
+export default connect(mapStateToProps, bindAction)(Profile);

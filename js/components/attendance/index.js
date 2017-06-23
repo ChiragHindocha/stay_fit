@@ -91,7 +91,7 @@ class Attendance extends Component {
     const limit = 1;
     return (
       <Container style={styles.container}>
-        <Header span={true}>
+        {/*<Header span={true}>
           <Left>
             <Button transparent onPress={this.props.openDrawer}>
               <Icon name="ios-menu" />
@@ -102,7 +102,7 @@ class Attendance extends Component {
           </Body>
           <Right />
 
-        </Header>
+        </Header>*/}
 
 
         <Content padder>

@@ -12,9 +12,6 @@ const mark = require("../../../img/login1_mark.png");
 const lockIcon = require("../../../img/login1_lock.png");
 const personIcon = require("../../../img/login1_person.png");
 
-const launchscreenBg = require('../../../img/launchscreen-bg.png');
-const launchscreenLogo = require('../../../img/logo-kitchen-sink.png');
-
 class Home extends Component { // eslint-disable-line
 
   static propTypes = {
@@ -58,7 +55,7 @@ class Home extends Component { // eslint-disable-line
                   <Text style={styles.forgotPasswordText}>Forgot Password?</Text>
                 </View>
               </TouchableOpacity>
-              <TouchableOpacity onPress={() => { Actions['basicTab'](); this.props.closeDrawer() }} activeOpacity={.5}>
+              <TouchableOpacity onPress={() => { Actions['iconFooter'](); this.props.closeDrawer() }} activeOpacity={.5}>
                 <View style={styles.button}>
                   <Text style={styles.buttonText}>Sign In</Text>
                 </View>

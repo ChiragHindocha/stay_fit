@@ -37,7 +37,7 @@ class Reminder extends Component {
   render() {
     return (
       <Container style={styles.container}>
-        <Header>
+        {/*<Header>
           <Left>
             <Button transparent onPress={this.props.openDrawer}>
               <Icon name="ios-menu" />
@@ -48,7 +48,7 @@ class Reminder extends Component {
           </Body>
           <Right />
 
-        </Header>
+        </Header>*/}
 
 
         <Content padder>

@@ -7,6 +7,8 @@ export type Action =
     | { type: 'REPLACE_OR_PUSH_ROUTE', route: string }
     | { type: 'OPEN_DRAWER'}
     | { type: 'CLOSE_DRAWER'}
+    | { type: 'OPEN_MODAL'}
+    | { type: 'CLOSE_MODAL'}
     | { type: 'CHANGE_PLATFORM'}
     | { type: 'CHANGE_MATERIAL'}
 
